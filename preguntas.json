@@ -1,0 +1,18 @@
+[
+    {
+        "titulo": "Como describiria la rapidez de atencion",
+        "respuestas": [
+            "Rápida",
+            "Normal",
+            "Lenta"
+        ]
+    },
+    {
+        "titulo" : "Suele comer en la confiteria",
+        "respuestas": [
+            "Si",
+            "No",
+            "A veces"
+        ]
+    }
+]

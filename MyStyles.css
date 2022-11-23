@@ -1,0 +1,21 @@
+:root {
+    /* Colores */
+    --rojo_2022: #c20e1a;
+    --azul_2022: #1d3365;
+    --negro_ucasal: #262626;
+    --gris_claro_ucasal: #616161;
+    --blanco_ucasal: #fff;
+    --sombra: rgba(0, 0, 0, 0.75);
+    --borde-btn: #a5adc3;
+    --fondo-form: #f2f2f2;
+    --fondo: #f5f5f5;
+  }
+
+
+
+  .azul-ucasal{
+    background-color: var(--azul_2022) !important;
+    border-color: var(--azul_2022) !important;
+  }
+
+  
