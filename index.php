@@ -75,11 +75,11 @@
     <h1 class="h3 mb-3 fw-normal">INICIO DE SESIÓN</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input id="usuario" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Usuario</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <input id="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
 
@@ -89,13 +89,22 @@
       </label>
     </div>-->
     <!--Boton submit para despues-->
-    <!--<button class="w-100 btn btn-lg btn-primary button-signin" type="submit">Entrar</button>-->
-    
-<a class="link-signin w-100 btn btn-lg btn-primary button-signin" href="preguntas.php">Entrar</a>
+    <button class="w-100 btn btn-lg btn-primary button-signin" type="button" onclick="logear()">Entrar</button>
+   <!-- 
+<a class="link-signin w-100 btn btn-lg btn-primary button-signin" href="preguntas.php">Entrar</a>-->
     
   </form>
 </main>
 
+
+<script>
+  function logear(){
+    var usuario = document.getElementById("usuario").value;
+    var password = document.getElementById("password").value;
+    console.log(usuario, password);
+    fetch("https://www-desa.ucasal.edu.ar/api/v1/jwt/index.php")
+  }
+</script>
 
     
   </body>
